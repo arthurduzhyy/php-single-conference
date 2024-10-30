@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests" tests="23" assertions="33" errors="0" failures="0" skipped="0" time="0.225302">
+    <testsuite name="Base\AgendaTest" file="/opt/project/src/tests/Base/AgendaTest.php" tests="2" assertions="6" errors="0" failures="0" skipped="0" time="0.162866">
+      <testcase name="testAddValidSlot" class="Base\AgendaTest" classname="Base.AgendaTest" file="/opt/project/src/tests/Base/AgendaTest.php" line="12" assertions="2" time="0.162777"/>
+      <testcase name="testAddOverlappingSlots" class="Base\AgendaTest" classname="Base.AgendaTest" file="/opt/project/src/tests/Base/AgendaTest.php" line="30" assertions="4" time="0.000089"/>
+    </testsuite>
+    <testsuite name="Base\AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" tests="9" assertions="9" errors="0" failures="0" skipped="0" time="0.018358">
+      <testsuite name="Base\AgendaViewTest::testCalculateNumberOfSlots" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.017830">
+        <testcase name="testCalculateNumberOfSlots with data set #0" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="17" assertions="1" time="0.017698"/>
+        <testcase name="testCalculateNumberOfSlots with data set #1" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="17" assertions="1" time="0.000051"/>
+        <testcase name="testCalculateNumberOfSlots with data set #2" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="17" assertions="1" time="0.000036"/>
+        <testcase name="testCalculateNumberOfSlots with data set #3" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="17" assertions="1" time="0.000045"/>
+      </testsuite>
+      <testsuite name="Base\AgendaViewTest::testCalculateAgendaDuration" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.000528">
+        <testcase name="testCalculateAgendaDuration with data set #0" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="35" assertions="1" time="0.000052"/>
+        <testcase name="testCalculateAgendaDuration with data set #1" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="35" assertions="1" time="0.000059"/>
+        <testcase name="testCalculateAgendaDuration with data set #2" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="35" assertions="1" time="0.000135"/>
+        <testcase name="testCalculateAgendaDuration with data set #3" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="35" assertions="1" time="0.000217"/>
+        <testcase name="testCalculateAgendaDuration with data set #4" class="Base\AgendaViewTest" classname="Base.AgendaViewTest" file="/opt/project/src/tests/Base/AgendaViewTest.php" line="35" assertions="1" time="0.000065"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Base\SlotTest" file="/opt/project/src/tests/Base/SlotTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.027089">
+      <testsuite name="Base\SlotTest::testInvalidArguments" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.027089">
+        <testcase name="testInvalidArguments with data set #0" class="Base\SlotTest" classname="Base.SlotTest" file="/opt/project/src/tests/Base/SlotTest.php" line="20" assertions="1" time="0.027021"/>
+        <testcase name="testInvalidArguments with data set #1" class="Base\SlotTest" classname="Base.SlotTest" file="/opt/project/src/tests/Base/SlotTest.php" line="20" assertions="1" time="0.000068"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Base\SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" tests="7" assertions="7" errors="0" failures="0" skipped="0" time="0.008152">
+      <testsuite name="Base\SlotViewTest::testDurationInMinutes" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.007931">
+        <testcase name="testDurationInMinutes with data set #0" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="18" assertions="1" time="0.007850"/>
+        <testcase name="testDurationInMinutes with data set #1" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="18" assertions="1" time="0.000050"/>
+        <testcase name="testDurationInMinutes with data set #2" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="18" assertions="1" time="0.000031"/>
+      </testsuite>
+      <testsuite name="Base\SlotViewTest::testDescriptionExcerpts" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.000142">
+        <testcase name="testDescriptionExcerpts with data set #0" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="52" assertions="1" time="0.000058"/>
+        <testcase name="testDescriptionExcerpts with data set #1" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="52" assertions="1" time="0.000041"/>
+        <testcase name="testDescriptionExcerpts with data set #2" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="52" assertions="1" time="0.000043"/>
+      </testsuite>
+      <testcase name="testExcerptInvalidArguments" class="Base\SlotViewTest" classname="Base.SlotViewTest" file="/opt/project/src/tests/Base/SlotViewTest.php" line="82" assertions="1" time="0.000079"/>
+    </testsuite>
+    <testsuite name="Bases\SpeakerViewTest" file="/opt/project/src/tests/Base/SpeakerViewTest.php" tests="3" assertions="9" errors="0" failures="0" skipped="0" time="0.008838">
+      <testsuite name="Bases\SpeakerViewTest::testInitialGeneration" tests="3" assertions="9" errors="0" failures="0" skipped="0" time="0.008838">
+        <testcase name="testInitialGeneration with data set #0" class="Bases\SpeakerViewTest" classname="Bases.SpeakerViewTest" file="/opt/project/src/tests/Base/SpeakerViewTest.php" line="18" assertions="3" time="0.008759"/>
+        <testcase name="testInitialGeneration with data set #1" class="Bases\SpeakerViewTest" classname="Bases.SpeakerViewTest" file="/opt/project/src/tests/Base/SpeakerViewTest.php" line="18" assertions="3" time="0.000046"/>
+        <testcase name="testInitialGeneration with data set #2" class="Bases\SpeakerViewTest" classname="Bases.SpeakerViewTest" file="/opt/project/src/tests/Base/SpeakerViewTest.php" line="18" assertions="3" time="0.000033"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

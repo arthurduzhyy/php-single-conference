@@ -1,0 +1,16 @@
+version: '3'
+
+networks:
+  conf_php:
+
+services:
+  php:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+    container_name: php_conf
+    volumes:
+      - ./src:/var/www/html:delegated
+    tty: true
+    networks:
+      - conf_php
